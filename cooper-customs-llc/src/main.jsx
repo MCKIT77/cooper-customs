@@ -2,8 +2,11 @@ import ReactDOM from 'react-dom/client';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.bundle.min';  // Import Bootstrap JavaScript with Popper
+
 import './index.css';
+
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';

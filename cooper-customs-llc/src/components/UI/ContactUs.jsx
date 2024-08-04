@@ -25,15 +25,15 @@ export const ContactUs = () => {
 
     return (
         <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="from_name" />
-            <label>Email</label>
-            <input type="email" name="from_email" />
-            <label>Phone Number</label>
-            <input type="text" name="from_phone" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
+            <label className='form-label'>Name</label>
+            <input className='form-control' type="text" name="from_name" />
+            <label className='form-label'>Email</label>
+            <input className='form-control' type="email" name="from_email" />
+            <label className='form-label'>Phone Number</label>
+            <input className='form-control' type="text" name="from_phone" />
+            <label className='form-label'>Message</label>
+            <textarea className='form-control' name="message" />
+            <input className='btn btn-success' type="submit" value="Send" />
         </form>
     );
 };

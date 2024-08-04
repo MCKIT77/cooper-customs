@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="container text-center mb-5">
 
 
-                <h4>&copy; {new Date().getFullYear()} - Cooper Customs LLC All Rights Reserved </h4>
+                <h6>&copy; {new Date().getFullYear()} - Cooper Customs LLC All Rights Reserved </h6>
             </div>
         </footer>
     );
