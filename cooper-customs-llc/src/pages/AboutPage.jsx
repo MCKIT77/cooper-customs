@@ -61,7 +61,7 @@ export default function AboutPage() {
           are truly peerless.
         </p>
         <p>
-          If you would like us to call you, please leave us a message below and we will get in touch with you as soon as possible.
+          <b>If you would like us to call you, please leave us a message below and we will get in touch with you as soon as possible.</b>
         </p>
         <ContactUs />
       </div>

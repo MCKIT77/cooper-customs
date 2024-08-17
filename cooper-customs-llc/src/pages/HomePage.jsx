@@ -15,7 +15,7 @@ export default function HomePage() {
           If you have an emergency, call us at <strong>(123) 456-7890</strong>.
         </p>
         <p>
-          If you would like us to call you, please leave us a message below and we will get in touch with you as soon as possible.
+          <b>If you would like us to call you, please leave us a message below and we will get in touch with you as soon as possible.</b>
         </p>
         <ContactUs />
       </div>
